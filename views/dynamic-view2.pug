@@ -1,0 +1,8 @@
+doctype html
+html
+    title Simple template
+body
+    if(user)
+        h1 hi, #{user.name}
+    else
+        a(href="/sign_up") Sign up
